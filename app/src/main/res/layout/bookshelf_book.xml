@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android = "http://schemas.android.com/apk/res/android"
+          android:layout_width = "@dimen/bookshelf_book_width"
+          android:layout_height = "@dimen/bookshelf_book_height"
+          android:layout_marginLeft = "@dimen/bookshelf_book_margin_horizontal"
+          android:layout_marginRight = "@dimen/bookshelf_book_margin_horizontal"
+          android:background = "@drawable/book_bk"
+          android:clickable = "false"
+          android:ellipsize = "end"
+          android:gravity = "right"
+          android:paddingRight = "@dimen/bookshelf_book_padding_right"
+          android:paddingTop = "@dimen/bookshelf_book_padding_top"
+          android:textSize = "@dimen/bookshelf_book_font_size" />

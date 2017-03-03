@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id = "@+id/dialog"
+              xmlns:android = "http://schemas.android.com/apk/res/android"
+              android:layout_width = "match_parent"
+              android:layout_height = "wrap_content"
+              android:gravity = "center"
+              android:orientation = "vertical" >
+
+	<TextView
+			android:layout_width = "wrap_content"
+			android:layout_height = "wrap_content"
+			android:layout_margin = "30.0dip"
+			android:text = "请在电脑上访问  www.weixinshu.com 扫二维码登录心书，进行预览和编辑"
+			android:textSize = "13.0sp" />
+
+	<TextView
+			android:id = "@+id/positive"
+			android:layout_width = "wrap_content"
+			android:layout_height = "wrap_content"
+			android:layout_margin = "10.0dip"
+			android:text = "确定"
+			android:textSize = "18sp" />
+</LinearLayout >

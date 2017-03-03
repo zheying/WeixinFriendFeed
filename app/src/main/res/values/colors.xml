@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+	<color name = "colorPrimary" >#3F51B5</color >
+	<color name = "colorPrimaryDark" >#303F9F</color >
+	<color name = "colorAccent" >#FF4081</color >
+
+	<color name="bookshelf_bar_color">#ffaaaaaa</color>
+	<color name="floating_window_bkcolor">#ffeeeeee</color>
+	<color name="floating_window_font_color">#ff000000</color>
+	<color name="floating_window_myblue">#ff87ceeb</color>
+	<color name="floating_window_okbutton_bkcolor">#ffeeeeee</color>
+	<color name="floating_window_okbutton_pressed_bkcolor">#ffdddddd</color>
+	<color name="qr_code_inst_color">#ffc45b58</color>
+	<color name="step_item_bkcolor">#ffeeeeee</color>
+	<color name="step_item_border_color">#ffcccccc</color>
+	<color name="step_item_clicked_bkcolor">#ffaaaaaa</color>
+	<color name="step_item_clicked_border_color">#ffcccccc</color>
+	<color name="wait_for_proceeding_bkcolor">#ffeeeeee</color>
+	<color name="wait_for_proceeding_font_color">#ff000000</color>
+</resources >

@@ -1,0 +1,29 @@
+<resources >
+	<!-- Default screen margins, per the Android Design guidelines. -->
+	<dimen name="activity_horizontal_margin">16.0dip</dimen>
+	<dimen name="activity_vertical_margin">16.0dip</dimen>
+	<dimen name="bookshelf_bar_height">25.0dip</dimen>
+	<dimen name="bookshelf_book_font_size">15.0sp</dimen>
+	<dimen name="bookshelf_book_height">250.0dip</dimen>
+	<dimen name="bookshelf_book_margin_horizontal">25.0dip</dimen>
+	<dimen name="bookshelf_book_padding_right">10.0dip</dimen>
+	<dimen name="bookshelf_book_padding_top">85.0dip</dimen>
+	<dimen name="bookshelf_book_width">200.0dip</dimen>
+	<dimen name="floating_window_confirm_book">20.0sp</dimen>
+	<dimen name="floating_window_font_size">18.0sp</dimen>
+	<dimen name="floating_window_height">200.0dip</dimen>
+	<dimen name="floating_window_horizontal_padding">10.0dip</dimen>
+	<dimen name="floating_window_vertical_margin">3.0dip</dimen>
+	<dimen name="floating_window_vertical_padding">10.0dip</dimen>
+	<dimen name="mask_wait_anim_margin_bottom">30.0dip</dimen>
+	<dimen name="mask_wait_anim_size">70.0dip</dimen>
+	<dimen name="qrcode_inst_font_size">16.0sp</dimen>
+	<dimen name="qrcode_loading_animation_size">100.0dip</dimen>
+	<dimen name="qrcode_size">200.0dip</dimen>
+	<dimen name="step_font_size">16.0sp</dimen>
+	<dimen name="step_item_margin_vertical">15.0dip</dimen>
+	<dimen name="step_item_padding_vertical">20.0dip</dimen>
+	<dimen name="step_layout_margin_top">50.0dip</dimen>
+	<dimen name="step_text_start_padding">25.0dip</dimen>
+	<dimen name="wait_for_proceeding_font_size">18.0sp</dimen>
+</resources >

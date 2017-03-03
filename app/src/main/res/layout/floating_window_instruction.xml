@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              android:layout_width = "wrap_content"
+              android:layout_height = "wrap_content"
+              android:background = "#00000000"
+              android:orientation = "vertical" >
+
+	<LinearLayout
+			android:id = "@+id/floating_window_toplayout"
+			android:layout_width = "fill_parent"
+			android:layout_height = "220.0dip"
+			android:background = "#50000000"
+			android:orientation = "vertical"
+			android:padding = "20.0dip"
+			android:visibility = "gone" >
+
+		<ImageView
+				android:layout_width = "30.0dip"
+				android:layout_height = "30.0dip"
+				android:background = "@drawable/move" />
+
+		<LinearLayout
+				android:layout_width = "500.0dip"
+				android:layout_height = "142.0dip"
+				android:layout_gravity = "center"
+				android:background = "@drawable/shadow_line"
+				android:orientation = "vertical"
+				android:padding = "20.0dip" >
+
+			<TextView
+					android:id = "@+id/instructionTextViewLogin"
+					android:layout_width = "fill_parent"
+					android:layout_height = "50.0dip"
+					android:background = "@color/floating_window_bkcolor"
+					android:gravity = "center_vertical"
+					android:minHeight = "@dimen/floating_window_height"
+					android:paddingBottom = "@dimen/floating_window_vertical_padding"
+					android:paddingLeft = "@dimen/floating_window_horizontal_padding"
+					android:paddingRight = "@dimen/floating_window_horizontal_padding"
+					android:paddingTop = "@dimen/floating_window_vertical_padding"
+					android:text = "@string/instruction_login_wechat"
+					android:textColor = "@color/floating_window_font_color"
+					android:textSize = "@dimen/floating_window_font_size" />
+
+			<View
+					android:id = "@+id/instructionMargin"
+					android:layout_width = "fill_parent"
+					android:layout_height = "1.0dip"
+					android:layout_marginLeft = "10.0dip"
+					android:layout_marginRight = "20.0dip"
+					android:background = "@color/step_item_border_color" />
+
+			<TextView
+					android:id = "@+id/instructionTextViewFriends"
+					android:layout_width = "fill_parent"
+					android:layout_height = "50.0dip"
+					android:background = "@color/floating_window_bkcolor"
+					android:gravity = "center_vertical"
+					android:minHeight = "@dimen/floating_window_height"
+					android:paddingBottom = "@dimen/floating_window_vertical_padding"
+					android:paddingLeft = "@dimen/floating_window_horizontal_padding"
+					android:paddingRight = "@dimen/floating_window_horizontal_padding"
+					android:paddingTop = "@dimen/floating_window_vertical_padding"
+					android:text = "@string/instruction_choose_friend"
+					android:textColor = "@color/step_item_border_color"
+					android:textSize = "@dimen/floating_window_font_size" />
+		</LinearLayout >
+	</LinearLayout >
+
+	<LinearLayout
+			android:id = "@+id/instructionLayoutMakeBook"
+			android:layout_width = "fill_parent"
+			android:layout_height = "wrap_content"
+			android:background = "#50000000"
+			android:orientation = "vertical"
+			android:padding = "20.0dip" >
+
+		<ImageView
+				android:layout_width = "30.0dip"
+				android:layout_height = "30.0dip"
+				android:background = "@drawable/move" />
+
+		<LinearLayout
+				android:layout_width = "500.0dip"
+				android:layout_height = "142.0dip"
+				android:layout_gravity = "center"
+				android:background = "@drawable/shadow_line"
+				android:orientation = "vertical"
+				android:padding = "20.0dip" >
+
+			<TextView
+					android:layout_width = "fill_parent"
+					android:layout_height = "wrap_content"
+					android:layout_marginLeft = "@dimen/mask_wait_anim_size"
+					android:minHeight = "@dimen/floating_window_height"
+					android:text = "@string/instruction_confirm_friend"
+					android:textColor = "@color/floating_window_font_color"
+					android:textSize = "@dimen/floating_window_font_size" />
+
+			<LinearLayout
+					android:layout_width = "fill_parent"
+					android:layout_height = "wrap_content"
+					android:layout_marginTop = "-50.0dip"
+					android:gravity = "right"
+					android:orientation = "horizontal" >
+
+				<TextView
+						android:id = "@+id/instructionOkButton"
+						android:layout_width = "220.0dip"
+						android:layout_height = "40.0dip"
+						android:layout_marginRight = "120.0dip"
+						android:background = "@drawable/border"
+						android:paddingBottom = "5.0dip"
+						android:paddingLeft = "32.0dip"
+						android:paddingRight = "@dimen/floating_window_horizontal_padding"
+						android:paddingTop = "5.0dip"
+						android:text = "@string/instruction_yes_button"
+						android:textColor = "@color/floating_window_myblue"
+						android:textSize = "@dimen/floating_window_font_size" />
+			</LinearLayout >
+		</LinearLayout >
+	</LinearLayout >
+
+	<LinearLayout
+			android:id = "@+id/instruction_to_home"
+			android:layout_width = "fill_parent"
+			android:layout_height = "wrap_content"
+			android:background = "#50000000"
+			android:orientation = "vertical"
+			android:padding = "10.0dip"
+			android:visibility = "gone" >
+
+		<ImageView
+				android:layout_width = "30.0dip"
+				android:layout_height = "30.0dip"
+				android:background = "@drawable/move" />
+
+		<LinearLayout
+				android:layout_width = "500.0dip"
+				android:layout_height = "110.0dip"
+				android:layout_gravity = "center"
+				android:background = "@drawable/shadow_line"
+				android:orientation = "vertical"
+				android:padding = "20.0dip" >
+
+			<LinearLayout
+					android:layout_width = "fill_parent"
+					android:layout_height = "fill_parent"
+					android:layout_marginTop = "-40.0dip"
+					android:gravity = "right"
+					android:orientation = "horizontal" >
+
+				<TextView
+						android:id = "@+id/backToHomeButton"
+						android:layout_width = "220.0dip"
+						android:layout_height = "40.0dip"
+						android:layout_marginRight = "120.0dip"
+						android:layout_marginTop = "60.0dip"
+						android:background = "@drawable/border"
+						android:gravity = "center"
+						android:paddingBottom = "5.0dip"
+						android:paddingRight = "@dimen/floating_window_horizontal_padding"
+						android:paddingTop = "5.0dip"
+						android:text = "@string/instruction_backhome_desc"
+						android:textColor = "@color/floating_window_myblue"
+						android:textSize = "@dimen/floating_window_font_size" />
+			</LinearLayout >
+		</LinearLayout >
+	</LinearLayout >
+
+	<LinearLayout
+			android:id = "@+id/instruction_waiting"
+			android:layout_width = "fill_parent"
+			android:layout_height = "wrap_content"
+			android:background = "#50000000"
+			android:orientation = "vertical"
+			android:padding = "10.0dip" >
+
+		<LinearLayout
+				android:layout_width = "500.0dip"
+				android:layout_height = "210.0dip"
+				android:layout_gravity = "center"
+				android:background = "@drawable/shadow_line"
+				android:orientation = "vertical"
+				android:padding = "20.0dip"
+				android:visibility = "gone" >
+
+			<TextView
+					android:layout_width = "fill_parent"
+					android:layout_height = "40.0dip"
+					android:layout_marginLeft = "@dimen/mask_wait_anim_size"
+					android:minHeight = "@dimen/floating_window_height"
+					android:paddingLeft = "25.0dip"
+					android:text = "@string/instruction_confirm_desc"
+					android:textColor = "@color/floating_window_font_color"
+					android:textSize = "@dimen/floating_window_font_size" />
+
+			<ImageView
+					android:layout_width = "251.0dip"
+					android:layout_height = "67.0dip"
+					android:layout_gravity = "center"
+					android:background = "@drawable/auth_hint" />
+
+			<LinearLayout
+					android:layout_width = "fill_parent"
+					android:layout_height = "fill_parent"
+					android:layout_marginTop = "-40.0dip"
+					android:gravity = "right"
+					android:orientation = "horizontal" >
+
+				<TextView
+						android:id = "@+id/instructionConfirmButton"
+						android:layout_width = "220.0dip"
+						android:layout_height = "40.0dip"
+						android:layout_marginRight = "120.0dip"
+						android:layout_marginTop = "60.0dip"
+						android:background = "@drawable/border"
+						android:gravity = "center"
+						android:paddingBottom = "5.0dip"
+						android:paddingRight = "@dimen/floating_window_horizontal_padding"
+						android:paddingTop = "5.0dip"
+						android:text = "@string/instruction_get_button"
+						android:textColor = "@color/floating_window_myblue"
+						android:textSize = "@dimen/floating_window_font_size" />
+			</LinearLayout >
+		</LinearLayout >
+	</LinearLayout >
+</LinearLayout >

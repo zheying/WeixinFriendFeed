@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android = "http://schemas.android.com/apk/res/android"
+          android:layout_width = "fill_parent"
+          android:layout_height = "@dimen/bookshelf_bar_height"
+          android:layout_marginBottom = "@dimen/step_item_margin_vertical"
+          android:background = "@drawable/bookshelf_bar_bk" />

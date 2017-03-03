@@ -1,0 +1,36 @@
+<resources >
+	<string name = "action_exit" >退出心书·微信书</string >
+	<string name = "action_settings" >请先登录哦</string >
+	<string name = "app_name" >微信书小助手</string >
+	<string name = "back_name_btn" >返回</string >
+	<string name = "follow_success_toast" >关注成功，开始制作微信书吧！</string >
+	<string name = "follow_xinshu_content" >登录</string >
+	<string name = "goto_website_content" >2. 编辑微信书：电脑访问 www.weixinshu.com 进行编辑、购买</string >
+	<string name = "hello_world" >Hello world!</string >
+	<string name = "instruction_backhome_desc" >返回微信书小助手</string >
+	<string name = "instruction_choose_friend" >2.打开自己或好友的朋友圈主页，为他/她做书</string >
+	<string name = "instruction_confirm_desc" >如遇到“超级用户请求”弹窗请选择：</string >
+	<string name = "instruction_confirm_friend" >确定把他/她的朋友圈做成微信书吗?</string >
+	<string name = "instruction_get_button" >我知道了</string >
+	<string name = "instruction_login_wechat" >1.请登录微信，此时手机微信会暂时退出</string >
+	<string name = "instruction_no_button" >否</string >
+	<string name = "instruction_ok_button" >确定</string >
+	<string name = "instruction_yes_button" >是，并授权心书制作</string >
+	<string name = "mask_wait_desc" >等待动画</string >
+	<string name = "network_failed_toast" >网络连接失败，请关闭程序并重试…</string >
+	<string name = "proceeding_done_toast" >恭喜您，微信书已制作完毕，请打开心书网络公众号查看</string >
+	<string name = "qr_code_desc" >心书网络公众号二维码</string >
+	<string name = "qr_code_inst" >请用微信扫描二维码登录</string >
+	<string name = "qrcode_expire_toast" >由于您超过5分钟没有扫描二维码，二维码已经过期，请重试~</string >
+	<string name = "setup_hint" >您还没有进行上面的设置，请先点击开始设置</string >
+	<string name = "step_one_content" >制作（朋友的 或 完整版）微信书，从登录开始→</string >
+	<string name = "step_two_content" >开始制作：打开微信，找到自己或好友的朋友圈主页</string >
+    <string name = "wait_for_proceeding" >"正在为您排版，请稍候…
+
+根据朋友圈内容和网络，一般需要5-30分钟~
+
+在此期间，请勿手机登录微信，以免出错，完成后会有提示的~
+
+
+如30分钟后未能成功，请尝试重新制作"</string >
+</resources >
